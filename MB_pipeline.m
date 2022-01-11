@@ -46,3 +46,8 @@ AP_grab_histology_ccf(tv,av,st,slice_path);
 % AP_auto_align_histology_ccf(slice_path);
 % (second: curate manually)
 AP_manual_align_histology_ccf(tv,av,st,slice_path);
+
+%% 4) Utilize aligned CCF
+
+% Display aligned CCF over histology slices
+AP_view_aligned_histology(st,slice_path);
